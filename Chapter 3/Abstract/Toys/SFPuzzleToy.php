@@ -18,7 +18,8 @@ class SFPuzzleToy extends PuzzleToy
         break; 
       case 2: 
         $this->size = 6; 
-        break;       case 3: 
+        break;       
+      case 3: 
         $this->size = 9; 
         break; 
     } 
@@ -26,8 +27,7 @@ class SFPuzzleToy extends PuzzleToy
     $this->pictureName = "San Francisco Puzzle"; 
   } 
  
-  public 
-  function getSize(): int 
+  public function getSize(): int 
   { 
     return $this->size; 
   } 
